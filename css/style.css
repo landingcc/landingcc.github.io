@@ -309,7 +309,7 @@ body{
 }
 
 @media (max-width: 767px) {
-	
+
 	#item-box-1, #item-box-3{
 		display: none;
 	}

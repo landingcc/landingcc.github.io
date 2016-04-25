@@ -8,39 +8,39 @@ $(document).ready(function() {
 	var $containerClone;
 	var $filterLink;
 	var $filteredItems
-	
+
 	$filter = $('.filter li.active a').attr('class');
 	$filterLink = $('#filter li a');
 	$container = $('ul.filterable-grid');
 	$containerClone = $container.clone();
-	
-	$('ul.filter>li a').click(function(e) 
+
+	$('ul.filter>li a').click(function(e)
 	{
 		$('ul.filter li').removeClass('active');
 		$filter = $(this).attr('class').split(' ');
-		
+
 		$(this).parent().addClass('active');
-		
+
 		if ($filter == 'all') {
-			$filteredItems = $containerClone.find('li'); 
+			$filteredItems = $containerClone.find('li');
 		}
 		else {
-			$filteredItems = $containerClone.find('li[data-type~=' + $filter + ']'); 
+			$filteredItems = $containerClone.find('li[data-type~=' + $filter + ']');
 		}
-		
-		$('ul.filterable-grid').quicksand($filteredItems, 
-			function () { 
+
+		$('ul.filterable-grid').quicksand($filteredItems,
+			function () {
 				lightbox();
 				$('#parallax_5').parallax('50%',.4);
 			 	$('#parallax_6').parallax('50%',.4);
 			}
 		);
-				
+
 	});
 
 
 	function lightbox() {
-		
+
 		$("a[data-rel^='prettyPhoto']").prettyPhoto({
 			animationSpeed:'fast',
 			slideshow:5000,
@@ -50,7 +50,7 @@ $(document).ready(function() {
 			social_tools: false
 		});
 	}
-	
+
 	if(jQuery().prettyPhoto) {
 		lightbox();
 	}
@@ -62,8 +62,7 @@ $(document).ready(function() {
 	$('#banner').css('height',height);
 
 	$('#banner').backstretch([
-		"images/bg_images.jpg",
-		"images/bg_images_2.jpg"
+		"images/bg_images.jpg"
 		], {duration: 3000, fade: 750});
 
 	/* =====  Accordion Function ===== */
@@ -184,7 +183,7 @@ $(document).ready(function() {
 		});
  	}
 
-		
+
 
 		if(width > 935){
 
@@ -259,19 +258,19 @@ $(document).ready(function() {
 	});
 
 
-	// grab the initial top offset of the navigation 
+	// grab the initial top offset of the navigation
    	var stickyNavTop = $('#main-nav').offset().top;
-   	
+
    	// our function that decides weather the navigation bar should have "fixed" css position or not.
    	var stickyNav = function(){
 	    var scrollTop = $(window).scrollTop(); // our current vertical position from the top
-	         
+
 	    // if we've scrolled more than the navigation, change its position to fixed to stick to top,
 	    // otherwise change it back to relative
-	    if (scrollTop > stickyNavTop) { 
+	    if (scrollTop > stickyNavTop) {
 	        $('#main-nav').addClass('sticky');
 	    } else {
-	        $('#main-nav').removeClass('sticky'); 
+	        $('#main-nav').removeClass('sticky');
 	    }
 	};
 
@@ -293,7 +292,7 @@ $(document).ready(function() {
 		// update some things on resize (and after 200 milliseconds of that)
 		if ( !$('html').hasClass('lt-ie9') ){
 			$.doTimeout('resize', 200, function(){
-								
+
 			 	var width = $(window).width();
 
 			 	if(width > 480 && width < 750 ){
@@ -339,15 +338,15 @@ $(document).ready(function() {
 			});
 		}
 	});
-	
+
 });
 
 
 $(document).ready(function ($) {
-	$('#formSubmit').click(function(){ 
+	$('#formSubmit').click(function(){
 		var error = false;
 
-		var name = $('input#formName').val(); 
+		var name = $('input#formName').val();
 		if(name == "" || name == " ") {
 			$('#error-name').fadeIn('slow');
 			error = true;
@@ -389,8 +388,3 @@ $(document).ready(function ($) {
 		return false;
 	});
 });
-
-
-
-
-

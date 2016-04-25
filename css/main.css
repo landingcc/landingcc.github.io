@@ -1,16 +1,16 @@
 /*
  * dotbiz - HTML5 Template
  * File Description: This file contain all the site styles.
- * 
+ *
  * Author: http://pixelcoder.net/
- * 
+ *
  * Website: http://pixelcoder.net/
- * 
+ *
  * Email: support@pixelcoder.net
  * Support: support@pixelcoder.net
- * 
+ *
  * This template has been purchased at http://www.themeforest.net/
- * 
+ *
  * TABLE OF CONTENTS:
  *
  * 0. Font Face
@@ -94,11 +94,11 @@
 }
 
 ::-moz-placeholder {  /* Firefox 19+ */
-   color: #525252;  
+   color: #525252;
 }
 
-:-ms-input-placeholder {  
-   color: #525252;  
+:-ms-input-placeholder {
+   color: #525252;
 }
 
 body{
@@ -154,7 +154,7 @@ form{
  }
 
  .header-box h2{
- 	color: #dd431f;
+ 	color: #00569F;
  	font-family: 'Proxima Nova Th';
  	font-size: 35px;
  	line-height: 42px;
@@ -286,7 +286,7 @@ form{
  .siteLogo .wc-dot-box{
   font-size: 16px;
   color: #ffffff;
-  background: #dd4322;
+  background: #00B1EB;
   line-height: 35px;
   height: 35px;
   width: 35px;
@@ -318,7 +318,7 @@ form{
  	position: absolute;
  	bottom: -10px;
  	left: 45%;
- 	background: #dd4322;
+ 	background: #00B1EB;
  	border-radius: 50%;
  	display: none;
 
@@ -393,7 +393,7 @@ form{
  */
 
  #home{
- 	background: #dd4322;
+ 	background: #00B1EB;
  	position: relative;
  	width: 100%;
  	height: auto;
@@ -423,7 +423,7 @@ form{
  	display: inline-block;
  	font-family: 'Proxima Nova Rg';
  	font-size: 18px;
- 	color: #dd4322;
+ 	color: #00B1EB;
  	background: #ffffff;
  	height: 45px;
  	width: 45px;
@@ -510,7 +510,7 @@ form{
  }
 
  .feature-text h4{
- 	color: #dd4322;
+ 	color: #00B1EB;
  	font-family: 'Proxima Nova Rg';
  	font-size: 16px;
  	line-height: 20px;
@@ -578,7 +578,7 @@ form{
  }
 
  .feature-item:hover .ft-top-icon .feature-icon{
- 	color: #dd4322;
+ 	color: #00B1EB;
  }
 
 
@@ -604,7 +604,7 @@ form{
 
  #parallax_1{
     background: url('../images/parallax_image_1.jpg') 50% 0 no-repeat fixed;
-    
+
 }
  #parallax_2{
     background: url('../images/parallax_image_2.jpg') 50% 0 no-repeat fixed;
@@ -612,22 +612,22 @@ form{
 
  #parallax_3{
     background: url('../images/parallax_image_3.jpg') 50% 0 no-repeat fixed;
-    
+
  }
 
  #parallax_4{
     background: url('../images/parallax_image_4.jpg') 50% 0 no-repeat fixed;
-    
+
  }
 
  #parallax_5{
     background: url('../images/parallax_image_5.jpg') 50% 0 no-repeat fixed;
-  
+
  }
 
  #parallax_6{
     background: url('../images/parallax_image_6.jpg') 50% 0 no-repeat fixed;
-    
+
  }
 
 
@@ -680,7 +680,7 @@ form{
  }
 
  .parallax_box_1 a{
-    background: #dd4322;
+    background: #00B1EB;
     color: #ffffff;
     display: inline-block;
     font-family: 'Proxima Nova Rg';
@@ -821,7 +821,7 @@ form{
 
 .para-icon{
   font-size: 30px;
-  color: #dd4322;
+  color: #00B1EB;
   margin-right: 5px;
 }
 
@@ -994,20 +994,20 @@ form{
   }
 
   .proccess-box:hover .polygon{
-  	background: #dd4322;
+  	background: #00B1EB;
   }
 
   .proccess-box:hover  .polygon:after{
-  	border-right-color: #dd4322;
+  	border-right-color: #00B1EB;
   }
   .proccess-box:hover  .polygon:before{
-  	border-right-color: #dd4322;
+  	border-right-color: #00B1EB;
   }
 
   .proccess-box:hover .ps-circle-text .step,
   .proccess-box:hover .ps-circle-text .number,
   .proccess-box:hover .process-desc .ps-icon{
-  	color: #dd4322;
+  	color: #00B1EB;
   }
 
   .proccess-box:hover .process-arrow{
@@ -1083,21 +1083,21 @@ progress[value]
 	     -moz-appearance: none;
 	          appearance: none;
 
-	  /* Gets rid of the default border in Firefox and Opera. */ 
+	  /* Gets rid of the default border in Firefox and Opera. */
 	  border: none;
 
-    /* Dimensions */  
+    /* Dimensions */
     width: 100%;
-    height: 8px;  
-  
+    height: 8px;
+
     /* For IE10 only */
-    color: #dd4322;
-  
+    color: #00B1EB;
+
     /* Firefox only (for container) */
     background-color: #dddddd;
 }
 
-progress[value]::-webkit-progress-bar 
+progress[value]::-webkit-progress-bar
 {
     background-color: #eee;
     position: relative;
@@ -1106,21 +1106,21 @@ progress[value]::-webkit-progress-bar
 .progress-box::-moz-progress-bar
 {
     background-image:
-        
-         -moz-linear-gradient( top, 
-                               rgba(255, 255, 255, 0), 
+
+         -moz-linear-gradient( top,
+                               rgba(255, 255, 255, 0),
                                rgba(0, 0, 0, 0)),
-         -moz-linear-gradient( left, #4f5670, #dd4322); 
+         -moz-linear-gradient( left, #4f5670, #00B1EB);
 }
 
 .progress-box::-webkit-progress-value, .python::-webkit-progress-value
 {
     background-image:
 
-         -webkit-linear-gradient( top, 
-                                  rgba(255, 255, 255, 0), 
+         -webkit-linear-gradient( top,
+                                  rgba(255, 255, 255, 0),
                                   rgba(0, 0, 0, 0)),
-         -webkit-linear-gradient( left, #4f5670, #dd4322); 
+         -webkit-linear-gradient( left, #4f5670, #00B1EB);
 }
 .progress-boxer{
 	position: relative;
@@ -1133,11 +1133,11 @@ progress[value]::-webkit-progress-bar
 	height: 20px;
 	width: 1px;
 	left: 80%;
-	background: #dd4322;
+	background: #00B1EB;
 	z-index: 4;
 }
 
-p[data-value] 
+p[data-value]
 {
 	font-family: 'Proxima Nova Rg';
 	font-size: 14px;
@@ -1225,7 +1225,7 @@ p[data-value]:after
 
 .team-desc{
 	position: absolute;
-	background: #dd4322;
+	background: #00B1EB;
 	bottom: -125px;
 	left: -20px;
 	width: 140px;
@@ -1246,7 +1246,7 @@ p[data-value]:after
 	left: 79px;
 	border-width: 0 11px 9px;
 	border-style: solid;
-	border-color: transparent transparent #dd4322;
+	border-color: transparent transparent #00B1EB;
 	z-index: 5;
 }
 
@@ -1304,7 +1304,7 @@ p[data-value]:after
 }
 
 .team-man-icon li a:hover{
-	color: #dd4322;
+	color: #00B1EB;
 	text-decoration: none;
 }
 .team-man-icon li a .sl-icon{
@@ -1416,7 +1416,7 @@ p[data-value]:after
  }
 
  .sr-icon span{
- 	color: #dd4321;
+ 	color: #0090D7;
  	font-size: 40px;
  	line-height: 48px;
  }
@@ -1573,16 +1573,16 @@ p[data-value]:after
 
 .tml-image-box{
 	display: inline-block;
-	height: 88px;
-	width: 88px;
+	height: 200px;
+	width: 200px;
 	border:1px solid #e2e2e2;
 	border-radius: 50%;
 }
 
 .tml-image{
 	display: inline-block;
-	height: 80px;
-	width: 80px;
+	height: 200px;
+	width: 200px;
 	margin: 4px;
 	border:none;
 	border-radius: 50%;
@@ -1600,7 +1600,7 @@ p[data-value]:after
 }
 
 .tml-profile p{
-	color: #dd4321;
+	color: #0090D7;
 	font-family: 'Proxima Nova Rg';
 	font-size: 12px;
 	font-weight: normal;
@@ -1657,7 +1657,7 @@ p[data-value]:after
  *  ===============================
  *
  */
-	
+
   #pricetable{
     background: #ffffff;
     position: relative;
@@ -1732,7 +1732,7 @@ p[data-value]:after
     color: #60698a;
     display: block;
     font-family: 'Proxima Nova Rg';
-    font-size: 42px;
+    font-size: 24px;
     font-weight: bold;
     line-height: 51px;
     text-transform: uppercase;
@@ -1741,7 +1741,7 @@ p[data-value]:after
 
   .price-desc{
     display: block;
-    padding: 22px 0;
+    /*: 22px 0;*/
     text-align: center;
     border-bottom: 1px solid #dddddd;
   }
@@ -1776,7 +1776,7 @@ p[data-value]:after
   }
 
   .price-button:hover{
-    background: #dd4322;
+    background: #00B1EB;
     text-decoration: none;
     color: #ffffff;
   }
@@ -1788,7 +1788,7 @@ p[data-value]:after
   .price-table-box.exclusive{
     position: relative;
     width: 312px;
-    border:2px solid #dd4322;
+    border:2px solid #00B1EB;
     border-radius: 3px;
   }
 
@@ -1807,7 +1807,7 @@ p[data-value]:after
   }
 
   .price-head .tag{
-    background: #dd4322;
+    background: #00B1EB;
     color: #ffffff;
     display: inline-block;
     padding: 4px 12px;
@@ -1825,7 +1825,7 @@ p[data-value]:after
   }
 
   .exclusive .price-button{
-    background: #dd4322;
+    background: #00B1EB;
   }
 
   .e-marker{
@@ -1899,7 +1899,7 @@ p[data-value]:after
  }
 
  .work-box{
- 	padding: 106px 0 94px;
+ 	padding: 0px 0 50px;
  }
 
  ul.work-list {
@@ -1922,7 +1922,7 @@ ul.work-list li a{
     display: block;
     position: relative;
 }
- 
+
 
 
 .item-box {
@@ -1941,7 +1941,7 @@ ul.work-list li a{
     left: 0;
 }
 
-/* Returning Hovers */ 
+/* Returning Hovers */
 
 .item-box img {
     display: block;
@@ -1976,7 +1976,7 @@ ul.work-list li a{
     font-size: 1.2em;
     line-height: 30px;
     background: #fff;
-    border-radius: 50%; 
+    border-radius: 50%;
     color: #1C1C28;
     text-transform: uppercase;
     text-decoration: none;
@@ -1989,19 +1989,19 @@ ul.work-list li a{
 }
 
 .item-box img {
-    transition: 0.5s; 
-	-webkit-transition: 0.5s; 
-	-o-transition: 0.5s; 
-	-ms-transition: 0.5; 
+    transition: 0.5s;
+	-webkit-transition: 0.5s;
+	-o-transition: 0.5s;
+	-ms-transition: 0.5;
 }
 
 .item-box .face{
     background-color: rgba(0,0,0,0.8);
     opacity:0;
-    transition: 500ms; 
-	-webkit-transition: 500ms; 
-	-o-transition: 500ms; 
-	-ms-transition: 500ms; 
+    transition: 500ms;
+	-webkit-transition: 500ms;
+	-o-transition: 500ms;
+	-ms-transition: 500ms;
 }
 
 .item-box h4{
@@ -2012,9 +2012,9 @@ ul.work-list li a{
 	-o-transform: rotate(180deg) skew(100deg, 100deg);
 	-ms-transform: rotate(180deg) skew(100deg, 100deg);
 	transition: 500ms;
-	-webkit-transition: 500ms; 
-	-o-transition: 500ms; 
-	-ms-transition: 500ms; 
+	-webkit-transition: 500ms;
+	-o-transition: 500ms;
+	-ms-transition: 500ms;
 	font-size: 16px;
 }
 
@@ -2026,9 +2026,9 @@ ul.work-list li a{
 	-o-transform: rotate(180deg) skew(100deg, 100deg);
 	-ms-transform: rotate(180deg) skew(100deg, 100deg);
 	transition: 500ms;
-	-webkit-transition: 500ms; 
-	-o-transition: 500ms; 
-	-ms-transition: 500ms; 
+	-webkit-transition: 500ms;
+	-o-transition: 500ms;
+	-ms-transition: 500ms;
 }
 
 .item-box a.icon1 {
@@ -2038,27 +2038,27 @@ ul.work-list li a{
   -o-transform: translateY(100px);
   -ms-transition: translateY(100px);
      transition: 500ms;
-  -webkit-transition: 500ms; 
-  -o-transition: 500ms; 
-  -ms-transition: 500ms; 
+  -webkit-transition: 500ms;
+  -o-transition: 500ms;
+  -ms-transition: 500ms;
 }
 
-/* Hover overs */ 
+/* Hover overs */
 
-.item-box:hover .face { 
+.item-box:hover .face {
     opacity:1;
     transition-delay: 0s;
-	-webkit-transition-delay: 0s; 
-	-o-transition-delay: 0s; 
-	-ms-transition-delay: 0s; 
-	cursor: pointer; 
-} 
+	-webkit-transition-delay: 0s;
+	-o-transition-delay: 0s;
+	-ms-transition-delay: 0s;
+	cursor: pointer;
+}
 
 .item-box:hover img {
     transition-delay: 0s;
-	-webkit-transition-delay: 0s; 
-	-o-transition-delay: 0s; 
-	-ms-transition-delay: 0s; 
+	-webkit-transition-delay: 0s;
+	-o-transition-delay: 0s;
+	-ms-transition-delay: 0s;
 }
 
 .item-box:hover h4 {
@@ -2067,11 +2067,11 @@ ul.work-list li a{
 	-webkit-transform: scale(1);
 	-o-transform: scale(1);
 	-ms-transform: scale(1);
-	
+
     transition-delay: 0.1s;
-	-webkit-transition-delay: 0.1s; 
-	-o-transition-delay: 0.1s; 
-	-ms-transition-delay: 0.1s; 
+	-webkit-transition-delay: 0.1s;
+	-o-transition-delay: 0.1s;
+	-ms-transition-delay: 0.1s;
 }
 
 .item-box:hover p {
@@ -2080,10 +2080,10 @@ ul.work-list li a{
 	-webkit-transform: scale(1);
 	-o-transform: scale(1);
 	-ms-transform: scale(1);
-	
+
       transition-delay: 0.2s;
-	-webkit-transition-delay: 0.2s; 
-	-o-transition-delay: 0.2s; 
+	-webkit-transition-delay: 0.2s;
+	-o-transition-delay: 0.2s;
 	-ms-transition-delay: 0.2s;
 }
 
@@ -2094,8 +2094,8 @@ ul.work-list li a{
   -o-transform: translateY(0px);
   -ms-transform: translateY(0px);
     transition-delay: 0.3s;
-  -webkit-transition-delay: 0.3s; 
-  -o-transition-delay: 0.3s; 
+  -webkit-transition-delay: 0.3s;
+  -o-transition-delay: 0.3s;
   -ms-transition-delay: 0.3s;
 }
 
@@ -2151,7 +2151,7 @@ ul.work-list li a{
 }
 
 .subscription input[type="submit"]{
- 	background: #dd4322;
+ 	background: #00B1EB;
  	color: #ffffff;
  	font-family: 'Proxima Nova Lt';
  	font-size: 20px;
@@ -2300,15 +2300,15 @@ ul.work-list li a{
 .up-triangle{
   display: inline-block;
 	position: relative;
-	width: 0px; 
-	height: 0px; 
-	border-bottom: 28px solid #EEEEEE; 
-	border-left: 33px solid transparent; 
-	border-right: 33px solid transparent; 
+	width: 0px;
+	height: 0px;
+	border-bottom: 28px solid #EEEEEE;
+	border-left: 33px solid transparent;
+	border-right: 33px solid transparent;
 }
 
 .up-triangle span{
-	color: #dd4321;
+	color: #0090D7;
 	font-size: 24px;
 	line-height: 24px;
 	position: absolute;
@@ -2406,6 +2406,8 @@ ul.work-list li a{
  	margin: 0;
  	text-align: center;
  	margin-bottom: 60px;
+	letter-spacing:10px;
+	text-decoration: none;
  }
 
  .social-icon li{
@@ -2415,15 +2417,15 @@ ul.work-list li a{
  	margin: 0 5px 0 0;
  }
 
- .social-icon li a{
+ .social-icon a{
  	color: #4e5670;
  	font-size: 46px;
  	text-decoration: none;
  	transition:color .3s linear 0s;
  }
 
- .social-icon li a:hover{
- 	color: #dd4322;
+ .social-icon a:hover{
+ 	color: #00B1EB;
  	text-decoration: none;
  }
 
@@ -2497,7 +2499,7 @@ ul.work-list li a{
  #footer{
  	position: relative;
  	padding: 50px 0;
- 	background: #dd4322;
+ 	background: #00B1EB;
  }
 
 
@@ -2567,13 +2569,13 @@ p#error-name, p#error-email, p#error-sms, p#failed{
 }
 
 p#error-name span, p#error-email span, p#error-sms span, p#failed span{
-    color: #DD4322;
+    color: #00B1EB;
     font-size: 16px;
     padding-right: 10px;
 }
 
 #success {
-    color: #DD4322;
+    color: #00B1EB;
     display: none;
     font-size: 25px;
     font-weight: 100;
@@ -2581,3 +2583,17 @@ p#error-name span, p#error-email span, p#error-sms span, p#failed span{
     padding-top: 30px;
     text-align: center;
 }
+
+/*change img*/
+
+.absolute{
+	position: absolute;
+}
+ .image-team {
+	 transition: opacity 0.6s ease-in-out;
+ }
+
+ .image-team:hover {
+	 transition: opacity 0.4s ease-in-out;
+	 opacity: 0;
+ }

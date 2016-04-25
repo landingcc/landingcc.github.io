@@ -190,7 +190,7 @@ $(document).ready(function() {
 			$('.team-slider').bxSlider({
 			  minSlides: 2,
 			  maxSlides: 5,
-			  slideWidth: 140,
+			  slideWidth: 220,
 			  slideMargin: 20,
 			  pager:false
 			});
@@ -200,7 +200,7 @@ $(document).ready(function() {
 			$('.team-slider').bxSlider({
 			  minSlides: 2,
 			  maxSlides: 4,
-			  slideWidth: 140,
+			  slideWidth: 220,
 			  slideMargin: 37,
 			  pager:false
 			});
@@ -211,7 +211,7 @@ $(document).ready(function() {
 			$('.team-slider').bxSlider({
 			  minSlides: 2,
 			  maxSlides: 3,
-			  slideWidth: 140,
+			  slideWidth: 220,
 			  slideMargin: 10,
 			  pager:false
 			});

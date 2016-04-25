@@ -846,7 +846,7 @@ form{
 
 
  .working-process{
- 	padding: 75px 0 74px;
+ 	padding: 10px 0 10px;
  }
 
  .working-process h4{
@@ -1226,8 +1226,8 @@ p[data-value]:after
 .team-desc{
 	position: absolute;
 	background: #00B1EB;
-	bottom: -125px;
-	left: -20px;
+	/*bottom: -125px;*/
+	left: 20px;
 	width: 140px;
 	padding: 15px 20px;
 	margin-top: 10px;
@@ -1519,13 +1519,14 @@ p[data-value]:after
 
 .testimonial-slider .bx-wrapper .bx-viewport{
 	padding: 0;
+	max-width: 940px!important;
 }
 
 .testimonial-slider .bx-wrapper{
 	max-width: 940px!important;
 }
 
-.testimonial-slider .bx-wrapper .bx-viewport{
+.testimonial-slider .bx-wrapper ..team-desc{
 	max-width: 940px!important;
 }
 
